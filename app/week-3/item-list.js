@@ -74,7 +74,7 @@ const item1 = {
 export default function ItemList() {
  let items = [ item1, item2, item3, item4, item5, item6, item7, item8, item10, item9, item11, item12];
   return (
-    <ul className="space-y-2 p-4 bg-white rounded-lgy">
+    <ul className="space-y-2 p-4 bg-white rounded-lgy ">
       {items.map((item, index) => (
         <Item key={index} name={item.name} quantity={item.quantity} category={item.category} />
       ))}
