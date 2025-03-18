@@ -13,9 +13,9 @@ export default function page(){
     setItems((prevItems) => [...prevItems, newItem]);
   };
   const handleItemSelect = (itemName) => {
-    const cleanedName = itemName
+    const name_clean = itemName
       .split(",")[0] .replace(/[^a-zA-Z ]/g, "").trim();
-    setSelectedItemName(cleanedName);
+    setSelectedItemName(name_clean);
   };
 
     return (
