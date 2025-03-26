@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
        <p><Link href="/week-6">week 6 Assignment</Link></p>
        <p><Link href="/week-7">week 7 Assignment</Link></p>
        <p><Link href="/week-8">week 8 Assignment</Link></p>
- 
+       <p><Link href="/week-9">week 9 Assignment</Link></p>
     </main>
    
   );
